@@ -1,0 +1,102 @@
+#slideshow {
+    position:relative;
+    height: 271px;
+     -webkit-transform: scale(1) skew(-10deg, 0deg);
+    -moz-transform: scale(1) skew(-10deg, 0deg);
+    -o-transform: scale(1) skew(-10deg, 0deg);
+    -ms-transform: scale(1) skew(-10deg, 0deg);
+    transform: scale(1) skew(-10deg, 0deg);
+
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    border:1px solid #000000;
+    -webkit-box-shadow: 1px 0px 14px 0px rgba(50, 50, 50, 0.86);
+    -moz-box-shadow:    1px 0px 14px 0px rgba(50, 50, 50, 0.86);
+    box-shadow:         1px 0px 14px 0px rgba(50, 50, 50, 0.86);
+}
+
+#slideshow IMG.active {
+    z-index:10;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+.slideshow-link{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 10%;
+    padding-left:10px;
+    padding-top:3px;
+    z-index: 999;
+    color: white;
+
+}
+
+.kleuren-balk{
+    height: 15px;
+    width: 100%;
+    background: #ffffff;
+    margin-left: -25px;
+    margin-top: 0;
+     -webkit-transform: scale(1) skew(-10deg, 0deg);
+    -moz-transform: scale(1) skew(-10deg, 0deg);
+    -o-transform: scale(1) skew(-10deg, 0deg);
+    -ms-transform: scale(1) skew(-10deg, 0deg);
+    transform: scale(1) skew(-10deg, 0deg);
+}
+
+.kleuren-balk-small {
+    height: 15px;
+    position: absolute;
+    width: 100%;
+    bottom: -17px;
+}
+
+.kleuren-balk-small-rood{
+     @extend .kleuren-balk-small;
+    background: #d63028;
+}
+
+.kleuren-balk-small-blauw{
+     @extend .kleuren-balk-small;
+    background: #243d86;
+}
+
+.kleuren-balk-small-geel{
+     @extend .kleuren-balk-small;
+    background: #f0d911;
+}
+
+@media all and (max-width: 600px) {
+
+    .slideshow-link, .kleuren-balk{
+        display: none;
+    }
+
+    #slideshow{
+        -webkit-transform: scale(1) skew(0deg, 0deg);
+        -moz-transform: scale(1) skew(0deg, 0deg);
+        -o-transform: scale(1) skew(0deg, 0deg);
+        -ms-transform: scale(1) skew(0deg, 0deg);
+        transform: scale(1) skew(0deg, 0deg);
+    }
+}
+
+
+@media all and (min-width: 600px) {
+
+    #slideshow IMG {
+        height: 285px;
+    }
+
+}

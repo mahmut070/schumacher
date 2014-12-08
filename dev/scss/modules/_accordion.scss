@@ -1,0 +1,83 @@
+.lg-accordion {
+	@include clearfix;
+}
+
+.card {
+	border: 1px solid black;
+	background-color: #555;
+	height: 270px;
+	-webkit-transform: scale(1) skew(-10deg, 0deg);
+	-moz-transform: scale(1) skew(-10deg, 0deg);
+	-o-transform: scale(1) skew(-10deg, 0deg);
+	-ms-transform: scale(1) skew(-10deg, 0deg);
+	transform: scale(1) skew(-10deg, 0deg);
+	-webkit-box-shadow: 1px 0px 14px 0px rgba(50, 50, 50, 0.86);
+	-moz-box-shadow:    1px 0px 14px 0px rgba(50, 50, 50, 0.86);
+	box-shadow:         1px 0px 14px 0px rgba(50, 50, 50, 0.86);
+}
+
+.card-1 {
+	background: url(../img/accordion.png);
+	background-color: #555;
+	background-repeat: no-repeat;
+
+}
+
+.card-2 {
+	background: url(../img/accordion.png);
+	background-color: #555;
+	background-repeat: no-repeat;
+}
+
+.card-3 {
+	background: url(../img/accordion.png);
+	background-color: #555;
+	background-repeat: no-repeat;
+}
+
+.overlay{
+	position:absolute;
+	right: 0;
+	top: 0;
+	height: 90%;
+	width: 50%;
+	color: #ffffff;
+	background-color:rgba(0, 0, 0, 0.8);
+	padding: 10px;
+}
+
+.titel-thumb{
+	position:absolute;
+	left: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 10%;
+	padding-left:10px;
+	padding-top:3px;
+}
+
+.titel-thumb a{
+	color: #ffffff;
+}
+
+@media all and (max-width: 600px) {
+
+    .card{
+		-webkit-transform: scale(1) skew(0deg, 0deg);
+		-moz-transform: scale(1) skew(0deg, 0deg);
+		-o-transform: scale(1) skew(0deg, 0deg);
+		-ms-transform: scale(1) skew(0deg, 0deg);
+		transform: scale(1) skew(0deg, 0deg);
+    }
+
+    #slideshow{
+    	height: 200px !important;
+    }
+
+	.titel-thumb a{
+		color: #ffffff;
+		font-size: 10px;
+	}
+
+}

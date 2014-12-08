@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.3.1_schumacher
+Theme URI: https://github.com/mahmut070/schumacher
+Description: a clean slate - schumacher child theme
+Version: 0.3.1
+Author: Mahmut
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.3.1
+*/
+
+@import url('../slate-0.3.1/style.css');

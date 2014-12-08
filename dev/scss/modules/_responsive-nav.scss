@@ -1,0 +1,231 @@
+// Responsive nav menu. Everything related to the navigation in TABLET/MOBILE mode should go here
+
+@media all and (min-width: 1040px) {
+
+} 
+
+.Navigation-menuToggle {
+  display: none;
+}
+.Navigation-menuToggle {
+//background-color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 7px;
+  margin-top: 7px;	
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  float: right;    
+	&:hover {
+		//	background-color: #fafafa;
+	}
+}
+
+.Nav-toggle {
+  .Icon.Icon--inline {
+    fill: white;
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+    height: 25px;
+    width: 25px;
+
+  }
+}
+
+// *************************************
+//
+// responsive-nav
+// -> The resopnsive nav menu css
+//
+// *************************************
+
+.Mob-contact-ico {
+	display: none;
+}
+
+
+//======================================================
+//          @media queries - Responsiveness
+//======================================================
+
+
+@media all and (max-width: 1040px) {
+
+	.logo{
+		@include span-columns(12);	
+	}
+
+	.navigatie{
+		@include span-columns(12);	
+		padding-top: 0px;
+	}
+
+	.Nav-tel {
+		display: none;
+	 }
+	 #js-navCollapseTarget {
+		display: none;
+        position: relative;
+		top: 30px;
+        left: 0;
+        margin: 0;
+        width: 100%;
+	 }
+
+	 .Bot-Nav {
+		height: auto;
+		min-height: 58px;
+	 }
+	 #js-navCollapse {
+		display: block;
+	 }
+
+	//  This is the wrapper for the navigation
+	.Nav-wrap {
+		height: auto;
+		min-height: 60px; // <-- adjust to height of div
+	}
+
+	.Navigation-menuToggle  {
+	  display: block;
+	}
+	//  Adjust the sizes and colors for erverything to your choice
+	.Navigation {	
+		position: relative;
+	}
+
+	.Navigation-list {
+		position: static;
+        border: 0px solid;
+	}
+
+
+	.Navigation-listItem {
+		display: block;
+		float: none;
+		line-height: 30px;
+		border-left: 0 solid;
+		width: 100%;
+		margin-left: 0;
+
+		&:last-of-type {
+			margin-bottom: 15px;
+		}
+
+		&:hover {
+			//background-color: $c-blue;
+
+			-webkit-transition:all 0.2s ease;
+			-moz-transition:all 0.2s ease;
+			-o-transition:all 0.2s ease;
+			a.Navigation-link {
+			//	color: $c-blue;
+				text-decoration: none;
+
+			}
+		}
+
+        &:first-of-type a {       
+        }
+
+        &:last-of-type a {              
+          border-bottom: 0px solid;
+        }
+
+	}
+
+	.Navigation-link {
+		line-height: 50px;
+		color: white;
+		display: block;
+		font-size: 16px;
+		margin: 8px;
+		font-weight: 400;
+		background: #797979;
+		letter-spacing: 1.7px;
+		border-radius: 5px;
+	    &:hover {
+            background-color: #000000;
+            color: white;
+        }
+
+
+	}
+
+	.Mob-contact-ico {
+		display: block;
+		z-index: 5000;
+
+		a { 
+			border: 2px solid white;
+			position: absolute;
+			display: block;
+			width: 35px;
+			height: 35px;
+			border-radius: 7px;
+			top: 239px;
+			background-color: transparent;
+
+			.Icon--inline {
+				fill: white;
+				width: 2.5em;
+				height: 2.5em;
+				padding-bottom: 1em;				
+			}
+		}
+
+		.telsvg {
+			left: 10px;				
+			.Icon--inline {
+				margin: -6px;
+				margin-top: -5px;
+			}
+		}
+	}
+}
+
+@media all and (min-width: 1040px) {  
+  #js-navCollapse {
+    display: none;
+  }
+}
+
+@media all and (max-width: 500px) { 
+	.navigatie{
+		padding-top: 0px;
+	}
+
+
+	.Mob-contact-ico {
+		display: block;
+		z-index: 5000;
+
+		a { 
+			border: 2px solid white;
+			position: absolute;
+			display: block;
+			width: 35px;
+			height: 35px;
+			border-radius: 7px;
+			top: 202px;
+			background-color: transparent;
+
+			.Icon--inline {
+				fill: white;
+				width: 2.5em;
+				height: 2.5em;
+				padding-bottom: 1em;				
+			}
+		}
+
+		.telsvg {
+			left: 10px;				
+			.Icon--inline {
+				margin: -6px;
+				margin-top: -5px;
+			}
+		}
+	}
+}

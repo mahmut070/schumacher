@@ -1,0 +1,44 @@
+.Content {
+
+}
+//Home pagina
+
+.inhoud-home{
+	margin-top: 50px;
+}
+//Einde home pagina
+
+
+//Contact pagina
+#input_1_1, #input_1_2, #input_1_3, #input_1_4, #input_1_5 {
+	width: 100%;
+	border:1px solid grey;
+	border-radius: 3px;
+}
+
+#gform_submit_button_1{
+	background: #000000;
+	color: #ffffff;
+	border-radius: 3px;
+	border:0;
+	padding: 10px;
+}
+//Einde contact pagina
+
+
+//Over ons page
+
+.thumb-fiets{
+	border: 4px solid white;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+	-moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+	box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+}
+
+.ul-particulier{
+	list-style-type: circle;
+	margin-top: 25px;
+	margin-left: 19px;
+}
+
+//Einde over ons page

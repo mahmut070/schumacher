@@ -94,7 +94,7 @@ module.exports = function (grunt) {
           'autoprefixer:compressed',
           //'csslint:compressed',
           // Beautify, lint, concat and minify js
-          'jsbeautifier:js',
+          //'jsbeautifier:js',
         //  'jshint:strict',
           'concat:all',
           'uglify:all',
@@ -121,7 +121,7 @@ module.exports = function (grunt) {
           // Make sure all bower libs are present
           'newer:copy:bower_libs',
           // Beautify, lint and copy js
-          'jsbeautifier:js',
+         // 'jsbeautifier:js',
         //  'jshint:strict',
           'newer:copy:js',
           // Process php

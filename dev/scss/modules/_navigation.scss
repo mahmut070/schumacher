@@ -1,0 +1,82 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  @include clearfix;
+  text-align: center;
+}
+
+.navigatie {
+  padding-top: 43px;
+}
+
+.header-parent{
+  margin-top: 45px;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-list {
+	display: block;
+	margin: 0px;
+  float: right;
+}
+
+.Navigation-link.is-active {
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: block;
+  margin: 0 rem(15px);
+  float: left;
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size:12px;
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}
