@@ -1,5 +1,6 @@
 <?php
 	add_filter('gform_validation_1', 'validate_captcha');
+	add_filter('gform_validation_2', 'validate_captcha');
 
 	function validate_captcha($validation_result){
 

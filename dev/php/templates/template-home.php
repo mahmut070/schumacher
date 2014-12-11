@@ -5,12 +5,11 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
-
 	<div class="u-gridContainer">
 
 			<div class="u-gridRow inhoud-home">
 
-				<div class="u-gridCol6">
+				<div class="u-gridCol6 slider-left">
 					<div id="slideshow">
 						<a class="slideshow-link" href="over-ons">OVER ONS</a>
             			<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-1.jpg">
@@ -64,5 +63,6 @@ Template Name: Homepage
 				</div>
 			</div>
 	</div>
+<div class="slider-stroke"></div>
 
 <?php get_footer(); ?>

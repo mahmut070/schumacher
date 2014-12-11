@@ -49,7 +49,7 @@
         <div class="u-gridRow telefoonnummer-area">
             <a href="tel:0294230961">
                 <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/telefoon.svg"> 
-                <h4 class="header-textTel">0294 - 230 961</h4>
+                <p class="header-textTel">0294 - 230 961</p>
             </a>
         </div>                 
 

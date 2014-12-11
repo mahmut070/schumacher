@@ -1,27 +1,24 @@
+<div class="footer">
+	<div class="u-gridContainer">
 
-	<div class="footer-top">
-	</div>
-
-	<div class="Socket">
-		<div class="u-gridContainer socket-relative">
-			<div class="u-gridRow footer-inhoud">                 
-		        <div class="u-gridCol8">
-					<!-- Copyright info -->
-					<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
-							<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
-					</p>
-				</div>
-		        <div class="u-gridCol4 sitemap">
-
-					<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
-					<div class="Footer-inner u-gridRow">
-						<?php dynamic_sidebar( 'footer-widgets' ); ?>
-					</div>
-					<?php endif; ?>
-				</div>
-			</div>
+		<div class="u-gridCol8">
+			<!-- Copyright info -->
+			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
+					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
+			</p>
 		</div>
+
+        <div class="u-gridCol4 sitemap">
+
+			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
+			<div class="Footer-inner u-gridRow">
+				<?php dynamic_sidebar( 'footer-widgets' ); ?>
+			</div>
+			<?php endif; ?>
+		</div>	
+			
 	</div>
+</div>
 
   <!-- Load jquery from google CDN if possible, with fallback to cdnjs -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>

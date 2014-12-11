@@ -1,4 +1,37 @@
-.Footer {
+
+@media all and (min-width: 1040px) {
+	.footer {
+
+	}
+
+	.menu-0{
+		margin-left: -21px;
+	}
+}
+
+@media all and (min-width: 0px) and (max-width: 1040px) {
+	.footer {
+		background: #4a4a4a;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+.footer{
+	background: #4a4a4a;
+	margin-top: 50px;
+}
+
+.footer a{
+	color: #ffffff;
+}
+
+#nav_menu-2{
+	float: right;
+}
+
+.menu-0{
+	color: #000000;
 }
 
 // RESPONSIVE FOOTER
@@ -6,48 +39,5 @@
 	@include span-columns(4);
 	@media screen and(max-width: 980px){
 		@include span-columns(12);
-	}
-}
-
-.Footer-inner {
-}
-
-//style the widgets
-.Footer-inner .widget {
-
-}
-
-#nav_menu-2{
-	float: right;
-}
-
-.Socket{
-	background: #4a4a4a;
-	height: 150px;
-	color: #ffffff;
-}
-
-.Socket a{
-	color: #ffffff;
-}
-
-.socket-relative{
-	position: relative;
-	height: 100%;
-}
-
-.footer-inhoud{
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-}
-
-.menu-0{
-	color: #000000;
-}
-
-@media all and (max-width: 600px) {
-	.footer-inhoud{
-		padding-top: 20px;
 	}
 }

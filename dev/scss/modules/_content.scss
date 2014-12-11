@@ -1,6 +1,14 @@
 .Content {
 
 }
+
+.slider-stroke{
+	height: 43px;
+	background: #4a4a4a;
+	margin-bottom: -51px;
+	margin-top: -31px;
+}
+
 //Home pagina
 
 .inhoud-home{
@@ -14,9 +22,16 @@
 	width: 100%;
 	border:1px solid grey;
 	border-radius: 3px;
+	color: #000000;
 }
 
-#gform_submit_button_1{
+#input_2_1, #input_2_2, #input_2_3, #input_2_4, #input_2_5, #input_2_6, #input_2_7{
+	border:1px solid grey;
+	border-radius: 3px;
+	color: #000000;
+}
+
+#gform_submit_button_1, #gform_submit_button_2{
 	background: #000000;
 	color: #ffffff;
 	border-radius: 3px;
