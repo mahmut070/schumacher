@@ -3,35 +3,43 @@
 }
 
 .card {
-	border: 1px solid black;
-	background-color: #555;
-	height: 270px;
+	background-color: #464646;
+	height: 290px;
 	-webkit-transform: scale(1) skew(-15deg, 0deg);
 	-moz-transform: scale(1) skew(-15deg, 0deg);
 	-o-transform: scale(1) skew(-15deg, 0deg);
 	-ms-transform: scale(1) skew(-15deg, 0deg);
 	transform: scale(1) skew(-15deg, 0deg);
-	-webkit-box-shadow: 1px 0px 14px 0px rgba(50, 50, 50, 0.86);
-	-moz-box-shadow:    1px 0px 14px 0px rgba(50, 50, 50, 0.86);
 	box-shadow:         1px 0px 14px 0px rgba(50, 50, 50, 0.86);
 }
 
+.background {
+	border: 1px solid black;
+	background: #464646;
+}
+
 .card-1 {
-	background: url(../img/accordion.png);
-	background-color: #555;
-	background-repeat: no-repeat;
-
+	border-bottom: 15px solid #d63028;
 }
-
 .card-2 {
+	border-bottom: 15px solid #243d86;
+}
+.card-3 {
+	border-bottom: 15px solid #f0d911;
+}
+
+.card-1 .background {
 	background: url(../img/accordion.png);
-	background-color: #555;
+	background-repeat: no-repeat; 
+}
+
+.card-2  .background {
+	background: url(../img/accordion.png);
 	background-repeat: no-repeat;
 }
 
-.card-3 {
+.card-3  .background {
 	background: url(../img/accordion.png);
-	background-color: #555;
 	background-repeat: no-repeat;
 }
 
@@ -39,26 +47,56 @@
 	position:absolute;
 	right: 0;
 	top: 0;
-	height: 90%;
+	height: 87%;
 	width: 50%;
 	color: #ffffff;
 	background-color:rgba(0, 0, 0, 0.9);
 	padding: 10px;
 }
 
-.titel-thumb{
-	position:absolute;
-	left: 0;
-	bottom: 0;
-	background-color:rgba(0, 0, 0, 0.9);
-	width: 100%;
-	height: 15%;
-	padding-left:10px;
-	padding-top:11px;
+
+
+.lg-accordion .background {
+	position: relative;
+	height: 270px;
+	.titel-thumb{
+		position:absolute;
+		left: 0;
+		bottom: 0px;
+		background-color:rgba(0, 0, 0, 0.9);
+		width: 100%;
+		height: 15%;
+		padding-left:10px;
+		padding-top:11px;
+	}
 }
 
 .titel-thumb a{
 	color: #ffffff;
+}
+
+.kleuren-balk{
+    height: 15px;
+    width: 100%;
+    margin-top: 0;
+//	margin-left: -38px;
+}
+
+.kleuren-balk {
+	height: 15px;
+	margin-top: 5px;
+	&.wit {
+		background: #ffffff;
+	}
+	&.rood {
+		background: #d63028;
+	}
+	&.blauw {
+		background: #243d86;
+	}
+	&.geel {
+		background: #f0d911;
+	}
 }
 
 @media all and (max-width: 600px) {

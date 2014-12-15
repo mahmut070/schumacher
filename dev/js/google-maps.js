@@ -4,13 +4,15 @@ var geocoder;
 function initialize() {
   geocoder = new google.maps.Geocoder();
   var mapCanvas = document.getElementById('map_canvas');
-  var mapOptions = {
-    center: new google.maps.LatLng(44.5403, 1.5463),
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+  if(mapCanvas != null){
+	  var mapOptions = {
+		center: new google.maps.LatLng(44.5403, 1.5463),
+		zoom: 12,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	  }
+	  map = new google.maps.Map(mapCanvas, mapOptions);
+	  codeAddress('Molendijk 30a 3632 EN Loenen a/d Vecht');
   }
-  map = new google.maps.Map(mapCanvas, mapOptions);
-  codeAddress('Molendijk 30a 3632 EN Loenen a/d Vecht');
 }
 
 function codeAddress(address) {
