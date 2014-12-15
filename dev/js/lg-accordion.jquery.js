@@ -61,10 +61,10 @@
     	var self = this;
       $(document).on({
           mouseenter: function (event) {
-			console.log('entering card '+ $(event.currentTarget).attr('id'));
+			//console.log('entering card '+ $(event.currentTarget).attr('id'));
             if(!animationFinished && currentCard.attr('id') != $(event.currentTarget).attr('id')) {
 			  cancelled = true;
-			  console.log("Animation not yet finished, but we hovered from one card to another, resetting everything");
+			  //console.log("Animation not yet finished, but we hovered from one card to another, resetting everything");
 			  currentCard.stop();
               self.resetCard(currentCard);
             }
@@ -73,9 +73,9 @@
             self.handleHover(event);
           },
           mouseleave: function (event) {
-			console.log('leaving card'+ $(event.currentTarget).attr('id'));
+			//console.log('leaving card'+ $(event.currentTarget).attr('id'));
             if(animationFinished) {
-			  console.log('animation finished, calling handleHoverOut');
+			  //console.log('animation finished, calling handleHoverOut');
               self.handleHoverOut(event);
             }
             mouseIsOverCard = false;
@@ -84,11 +84,11 @@
 
       $(document).on({
         mouseenter : function(event){
-			console.log('entering container');
+			//console.log('entering container');
             mouseIsOverContainer = true;
         },
         mouseleave: function(event){
-	      console.log('leaving container');
+	      //console.log('leaving container');
           mouseIsOverContainer = false;
         }
       }, '.lg-accordion');
@@ -150,7 +150,7 @@
 
     },
 	resetCard : function(cardElement) {
-	  console.log('Resetting card: '+cardElement.attr('id'));
+	  //console.log('Resetting card: '+cardElement.attr('id'));
       var neighbour = cardElement.next();
       var overlay = cardElement.find('.overlay');
       overlay.css('display', 'none');
