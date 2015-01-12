@@ -157,6 +157,9 @@
 	.Mob-contact-ico {
 		display: block;
 		z-index: 5000;
+		position: relative;
+		top: -275px;
+		
 
 		a { 
 			border: 2px solid white;
@@ -199,8 +202,10 @@
 
 
 	.Mob-contact-ico {
-		display: block;
-		z-index: 5000;
+	display: block;
+	z-index: 5000;
+	position: relative;
+	top: -238px;
 
 		a { 
 			border: 2px solid white;

@@ -1,22 +1,22 @@
 <div class="footer">
 	<div class="u-gridContainer">
+   <div class="footer-rel">
+    		<div class="u-gridCol8">
+    			<!-- Copyright info -->
+    			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
+    					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
+    			</p>
+    		</div>
 
-		<div class="u-gridCol8">
-			<!-- Copyright info -->
-			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
-					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
-			</p>
-		</div>
+            <div class="u-gridCol4 sitemap">
 
-        <div class="u-gridCol4 sitemap">
-
-			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
-			<div class="Footer-inner u-gridRow">
-				<?php dynamic_sidebar( 'footer-widgets' ); ?>
+    			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
+    			<div class="Footer-inner u-gridRow">
+    				<?php dynamic_sidebar( 'footer-widgets' ); ?>
+    			</div>
+    			<?php endif; ?>
+    		</div>	
 			</div>
-			<?php endif; ?>
-		</div>	
-			
 	</div>
 </div>
 

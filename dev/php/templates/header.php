@@ -54,11 +54,11 @@
         </div>                 
 
         <div class="u-gridRow header-parent">                 
-        <div class="logo u-gridCol3">
+        <div class="logo u-gridCol4">
             <a href="/home"><img class="logo-header" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"></a>
         </div>
 
-        <div class="Bot-Nav u-gridCol9 navigatie">
+        <div class="Bot-Nav u-gridCol8 navigatie">
             <div class="Nav-toggle u-cf">
                 <a class="Navigation-menuToggle" id="js-navCollapse">
                     <svg class="Icon Icon--inline" viewBox="0 0 128 128">
@@ -67,15 +67,16 @@
                 </a>
             </div>
 
+        <div class="Mob-contact-ico">
+          <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0294230961">
+            <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+              <use xlink:href="#icon-phone"></use>
+            </svg>
+          </a>
+        </div><!-- header-contact -->
+
             <?php include 'includes/navigation.php'; ?>
-            
-            <div class="Mob-contact-ico">
-                <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0294230961">
-                    <svg class="Icon Icon--inline" viewBox="0 0 128 128">
-                        <use xlink:href="#icon-phone"></use>
-                    </svg> 
-                </a>
-            </div><!-- header-contact -->
+
         </div>
     </div>
   </div>

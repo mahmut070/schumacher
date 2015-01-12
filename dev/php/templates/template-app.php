@@ -20,11 +20,9 @@ Template Name: App page
 
 					Voor Apple iPhone gebruikers: scan de QR-code of surf naar de website. 
 
-					<a href="#">Download de app hier</a>
+					<a href="https://play.google.com/store/apps/details?id=com.wTheoSchumacherschilderwerk" target="_blank" class="google-play"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/play.png"/></a>
 
-
-
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr_code.png" />
+					<img class="qr_code" src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr-code.png" />
 
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 				</article>

@@ -16,6 +16,7 @@
     position:absolute;
     top:0;
     left:0;
+    height: 100%;
     z-index:8;
     border:1px solid #000000;
 }
@@ -47,16 +48,25 @@
 
 @media all and (max-width: 600px) {
 
-    .slideshow-link, .kleuren-balk{
-        display: none;
-    }
 
-    #slideshow{
+
+    .slideshowcontainer{
         -webkit-transform: scale(1) skew(0deg, 0deg);
         -moz-transform: scale(1) skew(0deg, 0deg);
         -o-transform: scale(1) skew(0deg, 0deg);
         -ms-transform: scale(1) skew(0deg, 0deg);
         transform: scale(1) skew(0deg, 0deg);
+        margin-bottom: 20px;
+    }
+
+    .slideshow-link{
+        font-size: 10px;
+        bottom: 11px;
+        padding-top: 9px;
+    }
+
+    #slideshow{
+        height: 207px !important;
     }
 }
 
