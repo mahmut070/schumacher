@@ -9,7 +9,22 @@ Template Name: Homepage
 
 			<div class="u-gridRow inhoud-home">
 
-				<div class="u-gridCol6 accordion-area">
+				<div class="u-gridCol5 slider-left">
+					<div class="slideshowcontainer">
+						<div id="slideshow">
+
+							<a class="slideshow-link" href="over-ons">OVER ONS</a>
+							<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-1.jpg">
+
+							<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-2.jpg">
+
+							 <img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-3.jpg">
+						</div>
+						<div class="kleuren-balk wit"></div>	
+					</div>
+				</div>
+
+				<div class="u-gridCol7 accordion-area">
 					<div class="lg-accordion" style="visibility: hidden">
 						<div id="card-1" class="card card-1">
 							<div class="background">
@@ -53,22 +68,22 @@ Template Name: Homepage
 									</a>
 								</div>
 							</div>
-						</div>					
-					</div>
-				</div>
-
-				<div class="u-gridCol6 slider-left">
-					<div class="slideshowcontainer">
-						<div id="slideshow">
-
-							<a class="slideshow-link" href="over-ons">OVER ONS</a>
-							<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-1.jpg">
-
-							<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-2.jpg">
-
-							 <img src="<?php echo get_stylesheet_directory_uri();?>/img/slider-3.jpg">
 						</div>
-						<div class="kleuren-balk wit"></div>	
+
+						<div id="card-4" class="card card-4">
+							<div class="background">
+								<div class="titel-thumb">
+									<a href="/timmerwerk">TIMMERWERK</a>
+								</div>
+								<div class="overlay">
+									<a href="/timmerwerk">
+										<h3>TIMMERWERK</h3>
+										<p>Tijdens het uitvoeren van schilderwerk komen wij helaas nog wel eens wat houtrot tegen. Het inschakelen van een timmerman en het afstemmen van de uitvoering kunnen de nodige vertraging van de klus betekenen.</p>
+									</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 

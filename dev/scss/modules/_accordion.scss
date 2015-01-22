@@ -27,9 +27,12 @@
 .card-3 {
 	border-bottom: 15px solid #f0d911;
 }
+.card-4 {
+	border-bottom: 15px solid #131313;
+}
 
 .card-1 .background {
-	background: url(../img/accordion.png);
+	background: url(../img/thumb-particulier.png);
 	background-repeat: no-repeat; 
 }
 
@@ -41,6 +44,11 @@
 .card-3  .background {
 	background: url(../img/verzekering.png);
 	background-repeat: no-repeat;
+}
+
+.card-4  .background {
+	background: url(../img/accordion.png);
+	background-repeat: no-repeat; 
 }
 
 .overlay{
@@ -107,9 +115,16 @@
 	&.geel {
 		background: #f0d911;
 	}
+	&.grijs{
+		background: #3b3b3b;
+	}
 }
 
 @media all and (max-width: 600px) {
+
+	.titel-thumb{
+		padding-left: 5px;
+	}
 
     .card{
 		-webkit-transform: scale(1) skew(0deg, 0deg);
@@ -121,7 +136,7 @@
 
 	.titel-thumb a{
 		color: #ffffff;
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 	.overlay p{

@@ -1,14 +1,4 @@
 
-@media all and (min-width: 1040px) {
-	.footer {
-
-	}
-
-	.menu-0{
-		margin-left: -21px;
-	}
-}
-
 @media all and (min-width: 0px) and (max-width: 1040px) {
 	.footer {
 		background: #4a4a4a;
@@ -37,8 +27,8 @@
 	float: right;
 }
 
-.menu-0{
-	color: #000000;
+.sitemap{
+	visibility: hidden;
 }
 
 // RESPONSIVE FOOTER

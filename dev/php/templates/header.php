@@ -73,6 +73,11 @@
               <use xlink:href="#icon-phone"></use>
             </svg>
           </a>
+          <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@theoschumacher.nl">
+            <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+              <use xlink:href="#icon-envelope"></use>
+            </svg>
+          </a>
         </div><!-- header-contact -->
 
             <?php include 'includes/navigation.php'; ?>
