@@ -1,13 +1,13 @@
 <div class="footer">
 	<div class="u-gridContainer">
-		<div class="u-gridCol8">
+		<div class="u-gridCol12">
 			<!-- Copyright info -->
 			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
 					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a> - <a href="/app">Download de app</a>
 			</p>
 		</div>
 
-        <div class="u-gridCol4 sitemap">
+        <div class=" sitemap">
 
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 			<div class="Footer-inner u-gridRow">
