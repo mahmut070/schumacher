@@ -10,7 +10,7 @@
 	-o-transform: scale(1) skew(-15deg, 0deg);
 	-ms-transform: scale(1) skew(-15deg, 0deg);
 	transform: scale(1) skew(-15deg, 0deg);
-	box-shadow:         1px 0px 14px 0px rgba(50, 50, 50, 0.86);
+	box-shadow: 1px 0px 14px 0px rgba(50, 50, 50, 0.86);
 }
 
 .background {
@@ -27,34 +27,52 @@
 .card-3 {
 	border-bottom: 15px solid #f0d911;
 }
+.card-4 {
+	border-bottom: 15px solid #131313;
+}
 
 .card-1 .background {
-	background: url(../img/accordion.png);
+	background: url(../img/thumb-particulier.png);
 	background-repeat: no-repeat; 
 }
 
 .card-2  .background {
-	background: url(../img/accordion.png);
+	background: url(../img/zakelijk.png);
 	background-repeat: no-repeat;
 }
 
 .card-3  .background {
-	background: url(../img/accordion.png);
+	background: url(../img/verzekering.png);
 	background-repeat: no-repeat;
+}
+
+.card-4  .background {
+	background: url(../img/accordion.png);
+	background-repeat: no-repeat; 
 }
 
 .overlay{
 	position:absolute;
 	right: 0;
 	top: 0;
-	height: 87%;
+	height: 85%;
 	width: 50%;
 	color: #ffffff;
 	background-color:rgba(0, 0, 0, 0.9);
 	padding: 10px;
 }
 
+.overlay h3{
+	font-size: 18px;
+}
 
+.overlay p{
+	font-size: 12px;
+}
+
+.overlay a{
+	color: #ffffff;
+}
 
 .lg-accordion .background {
 	position: relative;
@@ -97,9 +115,16 @@
 	&.geel {
 		background: #f0d911;
 	}
+	&.grijs{
+		background: #3b3b3b;
+	}
 }
 
 @media all and (max-width: 600px) {
+
+	.titel-thumb{
+		padding-left: 5px;
+	}
 
     .card{
 		-webkit-transform: scale(1) skew(0deg, 0deg);
@@ -109,13 +134,21 @@
 		transform: scale(1) skew(0deg, 0deg);
     }
 
-    #slideshow{
-    	height: 200px !important;
-    }
-
 	.titel-thumb a{
 		color: #ffffff;
+		font-size: 8px;
+	}
+
+	.overlay p{
 		font-size: 10px;
+	}
+
+	.overlay h3{
+		font-size: 15px;
+	}
+
+	.accordion-area{
+		margin-bottom: 20px;
 	}
 
 }

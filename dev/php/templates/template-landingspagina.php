@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Over ons
+Template Name: Landingspagina
 */
 ?>
 

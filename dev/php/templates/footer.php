@@ -1,6 +1,5 @@
 <div class="footer">
 	<div class="u-gridContainer">
-
 		<div class="u-gridCol8">
 			<!-- Copyright info -->
 			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
@@ -14,9 +13,6 @@
 			<div class="Footer-inner u-gridRow">
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 			</div>
-			<?php endif; ?>
-		</div>	
-			
 	</div>
 </div>
 

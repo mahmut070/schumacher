@@ -157,6 +157,9 @@
 	.Mob-contact-ico {
 		display: block;
 		z-index: 5000;
+		position: relative;
+		top: -275px;
+		
 
 		a { 
 			border: 2px solid white;
@@ -166,6 +169,7 @@
 			height: 35px;
 			border-radius: 7px;
 			top: 239px;
+			left: 66px;
 			background-color: transparent;
 
 			.Icon--inline {
@@ -181,6 +185,14 @@
 			.Icon--inline {
 				margin: -6px;
 				margin-top: -5px;
+			}
+		}
+		
+		.mailsvg {
+			left: 65px;				
+			.Icon--inline {
+				margin: -7px;
+				margin-top: -7px;
 			}
 		}
 	}
@@ -199,8 +211,10 @@
 
 
 	.Mob-contact-ico {
-		display: block;
-		z-index: 5000;
+	display: block;
+	z-index: 5000;
+	position: relative;
+	top: -238px;
 
 		a { 
 			border: 2px solid white;

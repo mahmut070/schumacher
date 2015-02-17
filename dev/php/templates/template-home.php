@@ -9,7 +9,7 @@ Template Name: Homepage
 
 			<div class="u-gridRow inhoud-home">
 
-				<div class="u-gridCol6 slider-left">
+				<div class="u-gridCol5 slider-left">
 					<div class="slideshowcontainer">
 						<div id="slideshow">
 
@@ -24,7 +24,7 @@ Template Name: Homepage
 					</div>
 				</div>
 
-				<div class="u-gridCol6 accordion-area">
+				<div class="u-gridCol7 accordion-area">
 					<div class="lg-accordion" style="visibility: hidden">
 						<div id="card-1" class="card card-1">
 							<div class="background">
@@ -32,8 +32,10 @@ Template Name: Homepage
 									<a href="/particulier">PARTICULIEREN</a>
 								</div>
 								<div class="overlay">
-									<h3>bla bla</h3>
-									<p>bla bla bla</p>
+									<a href="/particulier">
+										<h3>PARTICULIEREN</h3>
+										<p>U zult begrijpen dat na drie generatie schilderen er veel kennis in ons bedrijf is opgebouwd. Deze expertise kunnen en willen wij graag met u delen zodat u weet dat het onderhoud van uw woning bij ons in vertrouwde handen is.</p>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -42,11 +44,13 @@ Template Name: Homepage
 							<div class="wrapp">
 								<div class="background">
 									<div class="titel-thumb">
-										<a href="/bedrijven">BEDRIJVEN</a>
+										<a href="/zakelijk">BEDRIJVEN</a>
 									</div>
 									<div class="overlay">
-										<h3>bla bla</h3>
-										<p>bla bla bla</p>
+									<a href="/zakelijk">
+										<h3>BEDRIJVEN</h3>
+										<p>Regelmatig worden wij door zakelijke opdrachtgevers gevraagd voor binnen-en buitenschilderwerk. Ons  personeel is in bezit van VCA certificeringen waardoor wij op een veilige, verantwoorde manier het werk kunnen uitvoeren.</p>
+									</a>
 									</div>
 								</div>
 							</div>
@@ -58,13 +62,31 @@ Template Name: Homepage
 									<a href="/verzekering">VERZEKERING</a>
 								</div>
 								<div class="overlay">
-									<h3>bla bla</h3>
-									<p>bla bla bla</p>
+									<a href="/verzekering">
+										<h3>VERZEKERING</h3>
+										<p>In opdracht van verzekeraars assurantiepersonen, schade-experts, vastgoedbeheerders en particulieren, nemen wij vaak het schilder traject op ons. Dat varieert van waterschade, brand- en inbraakschade zowel binnen als buiten.</p>
+									</a>
 								</div>
 							</div>
-						</div>					
+						</div>
+
+						<div id="card-4" class="card card-4">
+							<div class="background">
+								<div class="titel-thumb">
+									<a href="/timmerwerk">TIMMERWERK</a>
+								</div>
+								<div class="overlay">
+									<a href="/timmerwerk">
+										<h3>TIMMERWERK</h3>
+										<p>Tijdens het uitvoeren van schilderwerk komen wij helaas nog wel eens wat houtrot tegen. Het inschakelen van een timmerman en het afstemmen van de uitvoering kunnen de nodige vertraging van de klus betekenen.</p>
+									</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
+
 			</div>
 	</div>
 <div class="slider-stroke"></div>

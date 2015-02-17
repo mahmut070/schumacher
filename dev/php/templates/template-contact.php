@@ -26,6 +26,9 @@ Template Name: Contactpage
 					</div>
 					<div class="u-gridRow">
 						<div class="adress u-gridCol4">
+
+							<img class="thumb-theoencees" src="<?php echo get_stylesheet_directory_uri();?>/img/theoencees.jpg">
+
 							<div class="adress-info">
 								<p>Theo Schumacher meesterschilder</p>
 								<p>Molendijk 30a</p>
