@@ -4,7 +4,7 @@
 		<div class="u-gridCol8">
 			<!-- Copyright info -->
 			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
-					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
+					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a> - <a href="/app">Download de app</a>
 			</p>
 		</div>
 
